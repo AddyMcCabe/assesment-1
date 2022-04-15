@@ -18,8 +18,7 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
-// numbers.splice(1, 3);
-// middleNums = numbers.splice(1, 3);{console.log(middleNums)}
+// const middleNums = numbers.slice(1, 4);{console.log(middleNums)}
 
 
 //////////////////PROBLEM 4////////////////////
@@ -33,12 +32,11 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
-const answers = []
+let answers = []
 
-for(let i = bigOrSmallArray; bigOrSmallArray <= 352; i++);
-if(bigOrSmallArray <= 100){answers.push('small')}
-else if(bigOrSmallArray > 100){answers.push('big')}
+
+for(i =0; i <= bigOrSmallArray.length; i++)
+if(bigOrSmallArray[i] >= 101){answers.push('big')}
+else {answers.push('small')}
 
 console.log(answers)
-
-
