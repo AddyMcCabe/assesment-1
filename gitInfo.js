@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+gitDefinition = 'Is a software for tracking changes in any set of files, usually used for coordinating work among colaborating developers'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+gitHubDefinition = 'Is a Git repository hosting servive, it is like a cloud starage for your files tracked with Git'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+gitInitDefinition = 'Is a Git command that creates a new Git repository'
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+gitCloneDefinition = 'Is a Git command which is used to target an existing repository and create a clone or copy '
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+gitStatusDefinition = 'Is a Git command that displays the state of the working directory and the staging area'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,8 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+gitAddDefinition = 'Is the first command in a chain of opperations that directs Git to save a snapeshot of the current project state'
 
+gitAddCode = 'git add .'
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -63,8 +64,9 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+gitCommitDefinition = 'Is a git command that creates a snapshot of your repo at a specific point in time. it is like the shipping label'
 
+gitCommitCode = 'git commit -m "initial commit"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -72,4 +74,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+gitPushDefinition = 'Is a git command used to uplaod local repository content to a remote repository. in our case github'
