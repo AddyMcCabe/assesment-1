@@ -8,6 +8,6 @@ const reader = readline.createInterface({
 
 console.log('hello user')
 reader.question('What is your password?', function(answer){
-    if(answer.length >= 10){console.log ('your password is accepted!')}
+    if(answer.length >= 10 && answer.includes('!')){console.log ('your password is accepted!')}
     else {console.log ('your password is not valid')}
     reader.close()})
